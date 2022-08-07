@@ -11,7 +11,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "item")
-@Getter
+@Getter @Setter
 public abstract class Item {
 
     @Id @GeneratedValue
